@@ -1,0 +1,47 @@
+.bookmarkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(211, 211, 211);
+    border-radius: 6px;
+    padding: 10px;
+}
+.bookmarkLayout {
+    display: flex;
+    flex-direction: column;
+}
+.bookmarkTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
+.bookmarkTitleAndImage > img{
+    height: 25px;
+    width: 25px;
+}
+.bookmarkCategory{
+    margin-top: 20px;
+    color: rgb(85, 165, 165);
+    font-weight: bold;
+}
+.form-label{
+    font-weight: bold;
+}
+.form-logo{
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.bookmarkCommandPanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+}
+.bookmarkRow{
+    padding: 8px;
+    padding-bottom: 0px;
+    scroll-snap-align: start;
+}

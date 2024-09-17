@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/contacts";
+const API_URL = "https://lab1-server-davidgermain.glitch.me/api/contacts";
 function API_GetContacts() {
     return new Promise(resolve => {
         $.ajax({

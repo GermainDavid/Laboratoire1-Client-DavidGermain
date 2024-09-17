@@ -1,4 +1,4 @@
-const API_URL_BOOKMARKS = "http://localhost:5000/api/bookmarks";
+const API_URL_BOOKMARKS = "https://lab1-server-davidgermain.glitch.me/api/bookmarks";
 function API_GetBookmarks() {
     return new Promise(resolve => {
         $.ajax({

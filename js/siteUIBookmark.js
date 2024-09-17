@@ -1,9 +1,7 @@
-//<span class="cmdIcon fa-solid fa-ellipsis-vertical"></span>
 let contentScrollPosition = 0;
 let selectedCategory = ""; 
 Init_UI_Bookmarks();
 
-//Ajout
 function Init_UI_Bookmarks(){
     renderBookmarks();
     $('#createBookmark').on("click", async function () {
@@ -52,7 +50,7 @@ function getCategrories(bookmarks){
     });
     return categories;
 }
-//Ajout
+
 async function renderBookmarks() {
     inBookmark = true;
     showWaitingGif();
@@ -123,7 +121,6 @@ function getFormData($form) {
 }
 
 
-//Ajout
 function newBookmark() {
     bookmark = {};
     bookmark.Id = 0;
